@@ -132,8 +132,8 @@ autoketik = false;
 prefixStatus = true;
 targetpc = "62881024358619"; 
 owner = "62881024358619"; 
-fakeyoi = "ItsMeArilシ︎"; 
-cr = "ItsMeAril"
+fakeyoi = "ItsMeRilシ︎"; 
+cr = "ItsMeFebz"
 prefix = "#"
 HunterApi = "Ikyy69", 
 xchillds = 'XChillDs' 
@@ -1542,15 +1542,15 @@ ${readmore}
  
 𝘽𝙪𝙠𝙖𝙣 𝙋𝙧𝙤𝙜𝙖𝙢𝙢𝙚𝙧 𝘽𝙖𝙣𝙜☹︎
 `
-sendButLocation(from, `${menu}`,`𝘽𝙤𝙩 𝘽𝙮 ARIL STORE`, {jpegThumbnail:iye}, [{buttonId:`${prefix}donasi`,buttonText:{displayText:'DONASI'},type:1},{buttonId:`${prefix}credit`,buttonText:{displayText:'DEVOLOPER︎'},type:1}], {contextInfo: { mentionedJid: [ptod,stod]}})
+sendButLocation(from, `${menu}`,`𝘽𝙤𝙩 𝘽𝙮 𝙑𝘼𝙇𝙇 𝙓 𝙁𝙀𝘽𝙕`, {jpegThumbnail:iye}, [{buttonId:`${prefix}donasi`,buttonText:{displayText:'DONASI'},type:1},{buttonId:`${prefix}credit`,buttonText:{displayText:'DEVOLOPER︎'},type:1}], {contextInfo: { mentionedJid: [ptod,stod]}})
 
 break
 case '#credit':
 case 'credit':
-   dtod = '6283895741114'
-   dtod1 = '62881024358619'
-   dtod2 = '62881024358619'
-   dtod3 = '62881024358619'
+   dtod = '6281314050985'
+   dtod1 = '6285751056816'
+   dtod2 = '6285697725326'
+   dtod3 = '6285849261085'
    var yez = `
    [ CREDIT BOT ] :
    
@@ -1564,9 +1564,9 @@ case 'credit':
         break
 case '#donasi':
 case 'donasi':
-   dtod = '6283895741114'
+   dtod = '62881024358619'
    dtod1 = '62881024358619'
-   dtod2 =  '62881024358619'
+   dtod2 = '62881024358619'
    dtod3 = '62881024358619'
    var yez = `
    [ CP FOR DONATE ] :
